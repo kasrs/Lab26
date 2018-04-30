@@ -8,7 +8,23 @@
 
 #include "header.h"
 
+/******************************************************************************
+ * FUNCTION - ConvertSeasonToFruit
+ * ---------------------------------------------------------------------------
+ * 	This function converts the enumerated type seasons to a string representing
+ * 	the fruit, and returns a variable of type string.
+ *
+ * => returns fruits
+ * ---------------------------------------------------------------------------
+ * PRE-CONDITIONS
+ * 	the following variables need a pre-defined value passed in
+ * 		currentSeason
+ *
+ * POST-CONDITIONS
+ * 	the function returns fruits
+ *****************************************************************************/
 string ConvertSeasontoFruit(Season currentSeason)
 {
+	//uses the current season as index in the fruit array
 	return Fruits[currentSeason];
 }
